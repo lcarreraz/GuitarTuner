@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Guitar Tuner</string>
+    <string name="play">Play</string>
+    <string name="play_loop">Play Loop</string>
+    <string name="stop">Stop</string>
+    <string name="record">Record</string>
+    <string name="repeat">Repeat</string>
+    <string name="play_all">Play all</string>
+
+    <string-array name="country_arrays2">
+        <item>e1-a1-d2-g2-b2-e3</item>
+        <item>d1-a1-d2-g2-b2-e3</item>
+        <item>c1-g1-c2-f2-a2-d3</item>
+        <item>d1-a1-d2-f#2-a2-d3</item>
+        <item>d1-g1-d2-g2-b2-d3</item>
+        <item>c1-g1-c2-g2-c3-e3</item>
+        <item>e1-b1-e2-g#2-b2-e3</item>
+        <item>d1-a1-d2-g2-a2-d3</item>
+    </string-array>
+    <string-array name="country_arrays">
+        <item>Standard-EADGBE</item>
+        <item>Drop D-DADGBE</item>
+        <item>Drop C-CGCFAD</item>
+        <item>Open D-DADDF#AD</item>
+        <item>Open G-DGDGBD</item>
+        <item>Open C-CGCGCE</item>
+        <item>Open E-EBEG#BE</item>
+        <item>Open Dsus2-DADGAD</item>
+    </string-array>
+    <string-array name="notas">
+        <item>E-A-D-G-B-E</item>
+        <item>D-A-D-G-B-E</item>
+        <item>C-G-C-F-A-D</item>
+        <item>D-A-D-F#-A-D</item>
+        <item>D-G-D-G-B-D</item>
+        <item>C-G-C-G-C-E</item>
+        <item>E-B-E-G#-B-E</item>
+        <item>D-A-D-G-A-D</item>
+    </string-array>
+    <string-array name="audio_notes">
+        <item>note_e2-note_a2-note_d3-note_g3-note_b3-note_e4</item>
+        <item>note_d2-note_a2-note_d3-note_g3-note_b3-note_e4</item>
+        <item>note_c2-note_g2-note_c3-note_f3-note_a3-note_d4</item>
+        <item>note_d2-note_a2-note_d3-note_fsharp3-note_a3-note_d4</item>
+        <item>note_d2-note_g2-note_d3-note_g3-note_b3-note_d4</item>
+        <item>note_c2-note_g2-note_c3-note_g3-note_c4-note_e4</item>
+        <item>note_e2-note_b2-note_e3-note_gsharp3-note_b3-note_e4</item>
+        <item>note_d2-note_a2-note_d3-note_g3-note_a3-note_d4</item>
+    </string-array>
+
+</resources>

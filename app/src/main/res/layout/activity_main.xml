@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b46832"
+    tools:context="applab.milmedios.guitarturner.applab.milmedios.guitartuner.TunerActivity">
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:id="@+id/tableRow1p"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp" >
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.2"
+                android:entries="@array/country_arrays"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/num_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="3"
+            android:background="#FFF8DC"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:id="@+id/num_telefono7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/counte1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:textColor="#8B4513"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow12"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="#D2B48C"
+            android:padding="5dp" >
+
+            <Button
+                android:id="@+id/btnRepeat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:background="@drawable/roundedbutton"
+                android:gravity="center"
+                android:onClick="Repeat"
+                android:text="@string/repeat"
+                android:textColor="#FFF8DC"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnPlayAll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:background="@drawable/roundedbutton"
+                android:gravity="center"
+                android:onClick="Play_all"
+                android:text="@string/play_all"
+                android:textColor="#FFF8DC"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow14"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="#CD853F"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <Button
+                android:id="@+id/string_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@color/string_1"
+                android:gravity="center"
+                android:onClick="Play_string"
+                android:tag="0"
+                android:text=""
+                android:textColor="#8ee9f6"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/string_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@color/string_2"
+                android:gravity="center"
+                android:onClick="Play_string"
+                android:tag="1"
+                android:textColor="#8ee9f6"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/string_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@color/string_3"
+                android:gravity="center"
+                android:onClick="Play_string"
+                android:tag="2"
+                android:textColor="#8ee9f6"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/string_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@color/string_4"
+                android:gravity="center"
+                android:onClick="Play_string"
+                android:tag="3"
+                android:text=""
+                android:textColor="#8ee9f6"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/string_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@color/string_5"
+                android:gravity="center"
+                android:onClick="Play_string"
+                android:tag="4"
+                android:text=""
+                android:textColor="#8ee9f6"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/string_6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@color/string_6"
+                android:gravity="center"
+                android:onClick="Play_string"
+                android:tag="5"
+                android:text=""
+                android:textColor="#8ee9f6"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:background="#CD853F"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" >
+
+            <Button
+                android:id="@+id/btn_string_1"
+                style="@style/btn_note"
+                android:onClick="Play_string"
+                android:tag="0" />
+
+            <Button
+                android:id="@+id/btn_string_2"
+                style="@style/btn_note"
+                android:onClick="Play_string"
+                android:tag="1" />
+
+            <Button
+                android:id="@+id/btn_string_3"
+                style="@style/btn_note"
+                android:onClick="Play_string"
+                android:tag="2" />
+
+            <Button
+                android:id="@+id/btn_string_4"
+                style="@style/btn_note"
+                android:onClick="Play_string"
+                android:tag="3" />
+
+            <Button
+                android:id="@+id/btn_string_5"
+                style="@style/btn_note"
+                android:onClick="Play_string"
+                android:tag="4" />
+
+            <Button
+                android:id="@+id/btn_string_6"
+                style="@style/btn_note"
+                android:onClick="Play_string"
+                android:tag="5" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/addLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
